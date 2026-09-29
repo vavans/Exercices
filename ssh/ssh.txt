@@ -14,3 +14,9 @@ Votre clé SSH privée est en pièce jointe : lfd459-julien-vannesson.pem. Conne
 
 3) 📚 Support de cours
 En pièce jointe : LFD459-SLIDES_V1.36.1.pdf, LFD459-WM_V1.36.1_DT_20260929.pdf.
+
+wget https://cm.lf.training/LFD459/LFD459 V1.36.1 SOLUTIONS.tar.xz \ --user=LFtraining --password=Penguin2014
+tar -xvf LFD459 V1.36.1 SOLUTIONS.tar.xz
+
+localTerm:˜$ chmod 400 LF-Class.pem
+localTerm:˜$ ssh -i LF-Class.pem student@WW.XX.YY.ZZ

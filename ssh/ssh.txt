@@ -1,0 +1,16 @@
+Bonjour 👋,
+
+Bienvenue à la formation Kubernetes for App Developers (LFD459) ! 🚀 Voici tout ce qu'il vous faut pour démarrer.
+
+1) 📝 Enregistrement Linux Foundation
+•	Rendez-vous sur : https://linux.thoughtindustries.com/redeem
+•	Course Key : lfd459-ermh-devoteamgcloud-nfjx-20260929
+•	Complément recommandé par la LF : bundle e-Learning LFD259 + examen CKAD 🎓
+2) 💻 Vos machines de lab (Ubuntu 24.04)
+Votre clé SSH privée est en pièce jointe : lfd459-julien-vannesson.pem. Connectez-vous avec l'utilisateur student.
+•	Droits sur la clé : chmod 600 lfd459-julien-vannesson.pem
+•	🟦 Control plane : ssh -i lfd459-julien-vannesson.pem student@34.251.28.124
+•	🟩 Worker : ssh -i lfd459-julien-vannesson.pem student@34.242.121.229
+
+3) 📚 Support de cours
+En pièce jointe : LFD459-SLIDES_V1.36.1.pdf, LFD459-WM_V1.36.1_DT_20260929.pdf.
